@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#F96209">
+    <!-- Your app title -->
+    <title>Digital Coop TV</title>
+    <link rel="shortcut icon" href="assets/IconLogo/Main-Logo-DCTV.png">
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/css/framework7.bundle.min.css"
+        integrity="sha512-k9nxaV33rqebodf/Qs27GXEPL0YExuFEurVjYBftuSi9gk8NG2umHUJLCMBS+/QDsi8gjEX7U0vV/sxky0cAnw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/color_font.css">
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        .digicoop-footer p {
+            font-size: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Right Panel with Cover effect -->
+        <div class="panel panel-right panel-cover panel-init bg-color1" style="width: 200px">
+            <div style="margin-bottom: 20px; float: right; margin-right: 20px;">
+                <p><a href="#" class="panel-close">
+                        <img src="assets/icon/x.svg" alt="">
+                    </a></p>
+            </div>
+            <br>
+            <div class="block">
+                <p><a href="index.html" class="external panel-link font-montserrat-bold">BERANDA</a></p>
+                <p><a href="about.html" class="external panel-link font-montserrat-bold">TENTANG</a></p>
+                <p><a href="news.html" class="external panel-link font-montserrat-bold">BERITA</a></p>
+                <p><a href="activity.html" class="external panel-link font-montserrat-bold">AKTIVITAS</a></p>
+                <p><a href="#" class="external panel-link font-montserrat-bold">VIDEO</a></p>
+            </div>
+        </div>
+
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <div class="navbar no-hairline navbar-digicoop">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner sliding">
+                        <div class="left">
+                            <a class="link external" href="index.html">
+                                <div class="title">
+                                    <img src="assets/IconLogo/IconDTV.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right">
+                            <a href="#" data-panel=".panel-right" class="panel-open">
+                                <img src="assets/icon/menu.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content" style="margin-top: 40px">
+
+                    <!-- Static Navbar -->
+                    <div class="navbar no-hairline">
+                        <div class="navbar-bg" style="background-color: transparent;"></div>
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <a class="external" href="index.html">
+                                    <img src="assets/icon/arrow-left.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="title font-montserrat-medium" style="margin-left: -10px;">Event Terkini</div>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+
+                    <center>
+                        <h2 class="font-montserrat-bold">Digital Coop Virtual Fun Bike</h2>
+                        <img src="assets/background/bike.svg" alt="">
+                    </center>
+
+                    <div style="padding: 20px">
+                        <h3 class="font-montserrat-medium">Description: </h3>
+                        <p class="font-montserrat-regular">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna augue, posuere non
+                            neque ut, convallis semper
+                            ipsum. Proin a cursus dolor. Sed posuere, urna non vulputate consequat, enim augue aliquet
+                            purus, et viverra urna augue
+                            ac purus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas urna augue,
+                            posuere non neque ut, convallis
+                            semper ipsum. Proin a cursus dolor. Sed posuere, urna non vulputate consequat, enim augue
+                            aliquet purus, et viverra urna
+                            augue ac purus.
+                        </p>
+                        <br>
+                        <img src="assets/icon/event-detail.svg" alt="">
+                        <center>
+                            <a href="#" style="margin-top: 50px; width:250px"
+                                class="btn-more button button-outline button-large color1 font-montserrat-medium">GABUNG
+                                SEKARANG</a>
+                        </center>
+                    </div>
+
+                    <br>
+
+                    <div class="bg-color1 text-color-white digicoop-footer"
+                        style="width:100%; height: auto; margin-top: -10px;">
+                        <br>
+                        <center>
+                            <p class="font-montserrat-medium" style="margin-top:-3px">
+                                2021. All Right Reserved | Digital Coop TV | Supported by Dekopinwil DKI Jakarta
+                            </p>
+                        </center>
+                        <br>
+                        <br>
+                    </div>
+
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to jQuery-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/js/framework7.bundle.min.js"
+        integrity="sha512-mNNXnGROyRNv73WMhW121IBwZihmQe7dJ1BHQOCmjw1kyruG3anachQcKYwopFwm9281+qAN5UmbBMLB839zRQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>

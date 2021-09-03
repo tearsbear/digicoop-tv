@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#F96209">
+    <!-- Your app title -->
+    <title>Digital Coop TV</title>
+    <link rel="shortcut icon" href="assets/IconLogo/Main-Logo-DCTV.png">
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/css/framework7.bundle.min.css"
+        integrity="sha512-k9nxaV33rqebodf/Qs27GXEPL0YExuFEurVjYBftuSi9gk8NG2umHUJLCMBS+/QDsi8gjEX7U0vV/sxky0cAnw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/color_font.css">
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        .digicoop-footer p {
+            font-size: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Right Panel with Cover effect -->
+        <div class="panel panel-right panel-cover panel-init bg-color1" style="width: 200px">
+            <div style="margin-bottom: 20px; float: right; margin-right: 20px;">
+                <p><a href="#" class="panel-close">
+                        <img src="assets/icon/x.svg" alt="">
+                    </a></p>
+            </div>
+            <br>
+            <div class="block">
+                <p><a href="index.html" class="external panel-link font-montserrat-bold">BERANDA</a></p>
+                <p><a href="about.html" class="external panel-link font-montserrat-bold">TENTANG</a></p>
+                <p><a href="news.html" class="external panel-link font-montserrat-bold">BERITA</a></p>
+                <p><a href="activity.html" class="external panel-link font-montserrat-bold">AKTIVITAS</a></p>
+                <p><a href="#" class="external panel-link font-montserrat-bold">VIDEO</a></p>
+            </div>
+        </div>
+
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <div class="navbar no-hairline navbar-digicoop">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner sliding">
+                        <div class="left">
+                            <a class="external" href="index.html">
+                                <div class="title">
+                                    <img src="assets/IconLogo/IconDTV.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right">
+                            <a href="#" data-panel=".panel-right" class="panel-open">
+                                <img src="assets/icon/menu.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+
+                    <!-- Slide & Menu -->
+                    <div style="height: auto;" class="bg-color-white">
+                        <div data-pagination='{"el": ".swiper-pagination"}' data-space-between="50"
+                            class="swiper-container swiper-init demo-swiper">
+                            <div class="swiper-wrapper">
+                                <img class="swiper-slide" src="assets/slider/slide1.png" alt="">
+                                <div class="swiper-slide">
+                                    <img width="350" src="assets/slider/slide2.png" alt="">
+                                </div>
+                                <img class="swiper-slide" src="assets/slider/slide1.png" alt="">
+                            </div>
+                            <div class="swiper-pagination"></div>
+                        </div>
+                        <center>
+                            <div class="row" style="max-width: 85%; margin-top: -12px;">
+                                <div class="col-20">
+                                    <a href="#" class="external">
+                                        <img src="assets/icon/icon-home.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-20">
+                                    <a href="about.html" class="external">
+                                        <img src="assets/icon/icon-about.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-20">
+                                    <a href="news.html" class="external">
+                                        <img src="assets/icon/icon-news.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-20">
+                                    <a href="activity.html" class="external">
+                                        <img src="assets/icon/icon-act.svg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-20">
+                                    <a href="#" class="external">
+                                        <img src="assets/icon/icon-video.svg" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                        </center>
+                        <br>
+                    </div>
+
+
+                    <!-- News -->
+                    <div style="height: auto; margin-top: 20px; padding: 20px;" class="bg-color-white">
+                        <div class="row">
+                            <div class="col-70">
+                                <h3 class="font-montserrat-bold">Berita Terkini</h3>
+                            </div>
+                            <div class="col-20">
+                                <img style="margin-top: 15px;" src="assets/icon/btn-slide.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div data-space-between="10" data-slides-per-view="auto" data-centered-slides="true"
+                            class="swiper-container swiper-init demo-swiper demo-swiper-auto"
+                            style="margin-left: -50px; margin-top: -30px">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a class="card demo-card-header-pic bg-shadow text-color-black external"
+                                        href="read-news.html" style="border-radius: 0px 0px 10px 10px">
+                                        <div style="background-image:url(assets/news/1.png); border-radius: 10px 10px 0px 0px;"
+                                            class="card-header align-items-flex-end"></div>
+                                        <div class="card-content card-content-padding">
+                                            <p class="font-montserrat-medium title">"Holding" Mikro dan Koperasi</p>
+                                            <p class="font-montserrat-regular desc">
+                                                Polemik pembentukan Holding Ultra Mikro akhir-akhir ini menyisakan satu
+                                                pertanyaan mendasar. Benarkah kehadiran holding
+                                                akan menggerus koperasi dan lembaga...
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card demo-card-header-pic bg-shadow"
+                                        style="border-radius: 0px 0px 10px 10px">
+                                        <div style="background-image:url(assets/news/2.png); border-radius: 10px 10px 0px 0px;"
+                                            class="card-header align-items-flex-end"></div>
+                                        <div class="card-content card-content-padding">
+                                            <p class="font-montserrat-medium title">Koperasi Sawit JMK Naik</p>
+                                            <p class="font-montserrat-regular desc">
+                                                Koperasi Jasa Mutiara Kombeng (JMK) adalah Koperasi yang anggotanya
+                                                adalaha petani kelapa sawit swadaya, yang berlokasi
+                                                di Desa Makmur Jaya Kombeng...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card demo-card-header-pic bg-shadow"
+                                        style="border-radius: 0px 0px 10px 10px">
+                                        <div style="background-image:url(assets/news/3.png); border-radius: 10px 10px 0px 0px;"
+                                            class="card-header align-items-flex-end"></div>
+                                        <div class="card-content card-content-padding">
+                                            <p class="font-montserrat-medium title">Koperasi Masa Kini</p>
+                                            <p class="font-montserrat-regular desc">
+                                                Koperasi merupakan kekuatan utama ekonomi Indonesia. Hal ini ketika
+                                                menghadapi krisis ekonomi 1997 dan 2008, ekonomi
+                                                Indonesia tetap bisa bertahan...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                        <center>
+                            <a href="#"
+                                class="btn-more button button-outline button-large color1 font-montserrat-medium">SEMUA
+                                BERITA</a>
+                        </center>
+
+                    </div>
+
+                    <img src="assets/podcast/dummy.png" width="100%" alt="">
+
+                    <div class="bg-color2" style="margin-top:-5px; height: 50px; padding: 10px">
+                        <div class="row">
+
+                            <div class="col-25">
+                                <img style="margin-top: 18px;" src="assets/icon/icon-social.svg" alt="">
+                            </div>
+
+                            <div class="col-45">
+                                <h3 class="font-montserrat-bold text-color-white">GET IN TOUCH</h3>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div style="background-color: #fff; margin-top:-20px; height: auto">
+                        <br>
+                        <center>
+                            <h2 class="font-montserrat-bold">INSTAGRAM CHANNEL</h2>
+                            <div style="padding: 15px;">
+                                <img src="assets/background/bg-instagram.png" width="100%" alt="">
+                            </div>
+                        </center>
+                    </div>
+
+                    <div class="bg-color-white" style="height: auto; margin-top: 10px;">
+                        <br>
+                        <div
+                            style="background-image: url(assets/background/bg-galeri.png); height:300px; background-size: cover;">
+                            <br>
+                            <center>
+                                <h2 class="font-montserrat-bold">GALLERY</h2>
+                                <div class="row" style="max-width: 90%;">
+                                    <div class="col-30">
+                                        <img src="assets/galeri/1.png" style="border-radius: 7px;" width="100%" alt="">
+                                    </div>
+                                    <div class="col-30">
+                                        <img src="assets/galeri/2.png" style="border-radius: 7px;" width="100%" alt="">
+                                    </div>
+                                    <div class="col-30">
+                                        <img src="assets/galeri/3.png" style="border-radius: 7px;" width="100%" alt="">
+                                    </div>
+
+                                </div>
+                                <br>
+                                <a href="#"
+                                    class="btn-more-all button button-outline button-large color1 font-montserrat-medium">LIHAT
+                                    SEMUA</a>
+                            </center>
+                        </div>
+                        <br>
+                    </div>
+
+                    <br>
+
+                    <div class="bg-color1 text-color-white digicoop-footer"
+                        style="width:100%; height: 40px; margin-top: -20px;">
+                        <br>
+                        <center>
+                            <p class="font-montserrat-medium" style="margin-top:-3px">
+                                2021. All Right Reserved | Digital Coop TV | Supported by Dekopinwil DKI Jakarta
+                            </p>
+                        </center>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to jQuery-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/js/framework7.bundle.min.js"
+        integrity="sha512-mNNXnGROyRNv73WMhW121IBwZihmQe7dJ1BHQOCmjw1kyruG3anachQcKYwopFwm9281+qAN5UmbBMLB839zRQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>

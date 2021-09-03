@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar (Android only) -->
+    <meta name="theme-color" content="#F96209">
+    <!-- Your app title -->
+    <title>Digital Coop TV</title>
+    <link rel="shortcut icon" href="assets/IconLogo/Main-Logo-DCTV.png">
+    <!-- Path to Framework7 Library Bundle CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/css/framework7.bundle.min.css"
+        integrity="sha512-k9nxaV33rqebodf/Qs27GXEPL0YExuFEurVjYBftuSi9gk8NG2umHUJLCMBS+/QDsi8gjEX7U0vV/sxky0cAnw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/color_font.css">
+    <link rel="stylesheet" href="css/home.css">
+    <style>
+        .digicoop-footer p {
+            font-size: 8px;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Right Panel with Cover effect -->
+        <div class="panel panel-right panel-cover panel-init bg-color1" style="width: 200px">
+            <div style="margin-bottom: 20px; float: right; margin-right: 20px;">
+                <p><a href="#" class="panel-close">
+                        <img src="assets/icon/x.svg" alt="">
+                    </a></p>
+            </div>
+            <br>
+            <div class="block">
+                <p><a href="index.html" class="external panel-link font-montserrat-bold">BERANDA</a></p>
+                <p><a href="about.html" class="external panel-link font-montserrat-bold">TENTANG</a></p>
+                <p><a href="news.html" class="external panel-link font-montserrat-bold">BERITA</a></p>
+                <p><a href="activity.html" class="external panel-link font-montserrat-bold">AKTIVITAS</a></p>
+                <p><a href="#" class="external panel-link font-montserrat-bold">VIDEO</a></p>
+            </div>
+        </div>
+
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div data-name="home" class="page">
+
+                <div class="navbar no-hairline navbar-digicoop">
+                    <div class="navbar-bg"></div>
+                    <div class="navbar-inner sliding">
+                        <div class="left">
+                            <a class="link external" href="index.html">
+                                <div class="title">
+                                    <img src="assets/IconLogo/IconDTV.svg" alt="">
+                                </div>
+                            </a>
+                        </div>
+                        <div class="right">
+                            <a href="#" data-panel=".panel-right" class="panel-open">
+                                <img src="assets/icon/menu.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Scrollable page content -->
+                <div class="page-content" style="margin-top: 40px">
+
+                    <!-- Static Navbar -->
+                    <div class="navbar no-hairline">
+                        <div class="navbar-bg" style="background-color: transparent;"></div>
+                        <div class="navbar-inner">
+                            <div class="left">
+                                <a class="external" href="index.html">
+                                    <img src="assets/icon/arrow-left.svg" alt="">
+                                </a>
+                            </div>
+                            <div class="title font-montserrat-medium" style="margin-left: -10px;">Berita Terkini</div>
+                            <div class="right"></div>
+                        </div>
+                    </div>
+
+                    <center>
+                        <h2 class="font-montserrat-bold">“Holding” Mikro dan Koperasi</h2>
+                        <img src="assets/news/1.png" alt="">
+                    </center>
+
+                    <div style="padding: 20px">
+
+                        <p class="font-montserrat-regular">
+                            Polemik pembentukan Holding Ultra Mikro akhir-akhir ini menyisakan satu pertanyaan mendasar:
+                            benarkah kehadiran holding
+                            akan menggerus koperasi dan lembaga keuangan non-bank lainnya dari tengah masyarakat? Atau
+                            sebaliknya, justru berpotensi
+                            dimanfaatkan untuk memperbesar pengaruh koperasi dan Usaha Mikro, Kecil dan Menengah dalam
+                            perekonomian nasional?
+
+                            Mari lihat koperasi-koperasi besar di dunia. Hasil evaluasi Filene Research Institute dalam
+                            Laporan Survei Modal
+                            Koperasi pada 300 koperasi besar dunia menunjukkan selain menggunakan modal anggota untuk
+                            menjalankan usaha dan layanan
+                            koperasi, mereka juga menggunakan modal dari luar koperasi. Prosentasenya tidak selalu
+                            seragam. Di sektor perbankan
+                            rata-rata sekitar 22 persen, asuransi 11 persen dan pertanian sekitar 7 persen. Koperasi
+                            Pertanian Zen-Noh di Jepang
+                            misalnya, sebanyak 7 persen dari total sekitar US$5 miliar modal koperasinya berasal dari
+                            eksternal.
+
+                            Begitupun Koperasi Pertanian Fonterra di Selandia Baru. Koperasi ini tercatat memiliki modal
+                            sekitar US$5,3 miliar di
+                            mana US$31 juta diantaranya (1 persen) bersumber dari luar. Kemudahan akses permodalan (baik
+                            dari dalam dan luar
+                            koperasi) terbukti membantu koperasi terus berkembang dan puncaknya memberi manfaat lebih
+                            besar lagi terhadap seluruh
+                            anggota dan lingkungannya. Disinilah pentingnya UMKM Indonesia berkoperasi: kekuatannya
+                            solid pada orang per orang
+                            anggota—bukan pada modal.
+                        </p>
+                    </div>
+
+                    <!-- News -->
+                    <div style="height: auto; margin-top: 20px; padding: 20px;" class="bg-color-white">
+                        <div class="row">
+                            <div class="col-70">
+                                <h3 class="font-montserrat-bold">Berita Serupa Lainnya</h3>
+                            </div>
+                            <div class="col-20">
+                                <img style="margin-top: 15px;" src="assets/icon/btn-slide.svg" alt="">
+                            </div>
+                        </div>
+
+                        <div data-space-between="10" data-slides-per-view="auto" data-centered-slides="true"
+                            class="swiper-container swiper-init demo-swiper demo-swiper-auto"
+                            style="margin-left: -50px; margin-top: -30px">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a class="card demo-card-header-pic bg-shadow text-color-black external"
+                                        href="read-news.html" style="border-radius: 0px 0px 10px 10px">
+                                        <div style="background-image:url(assets/news/1.png); border-radius: 10px 10px 0px 0px;"
+                                            class="card-header align-items-flex-end"></div>
+                                        <div class="card-content card-content-padding">
+                                            <p class="font-montserrat-medium title">"Holding" Mikro dan Koperasi</p>
+                                            <p class="font-montserrat-regular desc">
+                                                Polemik pembentukan Holding Ultra Mikro akhir-akhir ini menyisakan satu
+                                                pertanyaan mendasar. Benarkah kehadiran holding
+                                                akan menggerus koperasi dan lembaga...
+                                            </p>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card demo-card-header-pic bg-shadow"
+                                        style="border-radius: 0px 0px 10px 10px">
+                                        <div style="background-image:url(assets/news/2.png); border-radius: 10px 10px 0px 0px;"
+                                            class="card-header align-items-flex-end"></div>
+                                        <div class="card-content card-content-padding">
+                                            <p class="font-montserrat-medium title">Koperasi Sawit JMK Naik</p>
+                                            <p class="font-montserrat-regular desc">
+                                                Koperasi Jasa Mutiara Kombeng (JMK) adalah Koperasi yang anggotanya
+                                                adalaha petani kelapa sawit swadaya, yang berlokasi
+                                                di Desa Makmur Jaya Kombeng...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="card demo-card-header-pic bg-shadow"
+                                        style="border-radius: 0px 0px 10px 10px">
+                                        <div style="background-image:url(assets/news/3.png); border-radius: 10px 10px 0px 0px;"
+                                            class="card-header align-items-flex-end"></div>
+                                        <div class="card-content card-content-padding">
+                                            <p class="font-montserrat-medium title">Koperasi Masa Kini</p>
+                                            <p class="font-montserrat-regular desc">
+                                                Koperasi merupakan kekuatan utama ekonomi Indonesia. Hal ini ketika
+                                                menghadapi krisis ekonomi 1997 dan 2008, ekonomi
+                                                Indonesia tetap bisa bertahan...
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+
+                    </div>
+
+
+
+                    <div class="bg-color1 text-color-white digicoop-footer"
+                        style="width:100%; height: auto; margin-top: -10px;">
+                        <br>
+                        <center>
+                            <p class="font-montserrat-medium" style="margin-top:-3px">
+                                2021. All Right Reserved | Digital Coop TV | Supported by Dekopinwil DKI Jakarta
+                            </p>
+                        </center>
+                        <br>
+                        <br>
+                    </div>
+
+                    <br>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Path to jQuery-->
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!-- Path to Framework7 Library Bundle JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/framework7/5.7.14/js/framework7.bundle.min.js"
+        integrity="sha512-mNNXnGROyRNv73WMhW121IBwZihmQe7dJ1BHQOCmjw1kyruG3anachQcKYwopFwm9281+qAN5UmbBMLB839zRQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/my-app.js"></script>
+</body>
+
+</html>

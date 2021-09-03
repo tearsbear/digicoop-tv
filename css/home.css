@@ -1,0 +1,106 @@
+.navbar-digicoop {
+    height: 70px;
+}
+
+.navbar-digicoop .navbar-bg {
+    background-color: var(--color1) !important;
+}
+
+.navbar-digicoop .left a {
+    margin-left: 10px;
+    margin-top: 3px;
+}
+
+.navbar-digicoop .right a {
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.panel-link {
+    color: #fff;
+    font-size: 18px;
+}
+
+/* A bit of demo styles */
+
+.demo-swiper .swiper-slide {
+    margin-top: 50px;
+    height: 100%;
+    font-size: 25px;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    color: #000;
+}
+
+.demo-swiper .swiper-slide {
+    box-sizing: border-box;
+}
+
+.demo-swiper {
+    margin: 0px 0 35px;
+    font-size: 18px;
+    height: auto;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide {
+    width: 80%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(2n) {
+    width: 80%;
+}
+
+.demo-swiper.demo-swiper-auto .swiper-slide:nth-child(3n) {
+    width: 80%;
+}
+
+.swiper-wrapper {
+    padding-bottom: 30px;
+}
+
+.swiper-container-horizontal>.swiper-pagination-bullets, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: 1px !important;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: var(--color1);
+}
+
+.demo-card-header-pic .card-header {
+    height: 60vw;
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+}
+
+.demo-card-header-pic .card-content-padding .date {
+    color: #8e8e93;
+}
+
+.title {
+    font-size: 18px;
+}
+
+.desc {
+    font-size: 15px;
+}
+
+.btn-more {
+    margin-top: -35px;
+    border-color: var(--color1);
+    border-radius: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.btn-more-all {
+    margin-top: 35px;
+    border-color: var(--color1);
+    border-radius: 10px;
+    width: 150px;
+    margin-bottom: 10px;
+    font-size: 15px;
+}

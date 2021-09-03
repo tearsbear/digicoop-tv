@@ -1,0 +1,88 @@
+/* import font */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+/*------------------*/
+
+/* define color */
+
+:root {
+    --color0: #ffffff;
+    --color1: #F96209;
+    --color2: #FBB03B;
+    --color3: #f9f9f9;
+    --color4: #f3f3f3;
+    --color5: #ececec;
+    --color6: #f1f1f1;
+    --shadow1: 0px 1px 6px #d1d1d1;
+}
+
+/* define nunito font */
+
+.font-nunito-light {
+    font-weight: 300 !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-nunito-regular {
+    font-weight: 400 !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-nunito-medium {
+    font-weight: 600 !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+.font-nunito-bold {
+    font-weight: 700 !important;
+    font-family: 'Nunito', sans-serif;
+}
+
+/* define montserrat font */
+
+.font-montserrat-light {
+    font-weight: 300 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-montserrat-regular {
+    font-weight: 400 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-montserrat-medium {
+    font-weight: 500 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.font-montserrat-bold {
+    font-weight: 600 !important;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* define bgcolor and color class */
+
+.bg-color1 {
+    background-color: var(--color1);
+}
+
+.color1 {
+    color: var(--color1);
+}
+
+.bg-color2 {
+    background-color: var(--color2);
+}
+
+.color2 {
+    color: var(--color2);
+}
+
+.bg-color3 {
+    background-color: var(--color3);
+}
+
+.bg-shadow {
+    box-shadow: var(--shadow1);
+}
